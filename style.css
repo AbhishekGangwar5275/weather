@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #0a55583e, #b6fbff);
+  text-align: center;
+  padding: 2em;
+  margin: 0;
+}
+
+.weather-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 2em;
+  background-color:bluesky;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+}
+
+input, button {
+  padding: 10px;
+  margin: 1em 0;
+  width: 80%;
+  font-size: 1em;
+}
+
+.weather-result {
+  margin-top: 1em;
+}
+#searchBtn:hover {
+  background-color: blue;
+}
+
